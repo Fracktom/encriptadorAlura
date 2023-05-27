@@ -1,0 +1,119 @@
+body{
+    background: #adc2f9;
+    
+}
+
+main{
+    padding: 0 10px 0 10px;
+    height: 360px;
+}
+.tituloPrincipal{
+    text-align: center;
+    color: rgb(28, 45, 99);
+}
+
+header{
+    width: auto;
+    height: 87px;
+}
+
+.imagenHeader{
+    width: 180px;
+    height: 180px;
+    position: relative;
+    left: -45px;
+    top: -125px;
+}
+
+#cajaMensaje{
+
+    position: absolute;
+    width: 400px;
+    height: 434px;
+    left: 660px;
+    top: 60px;
+    background: #FFFFFF; 
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 40px;
+}
+#resultado{
+    right: -490px;
+    top: -123px;
+    position: relative;
+    border-style: none;
+    border-radius: 5px;
+}
+#texto{
+    border-style: none;
+    border-radius: 5px;
+    
+
+}
+.botonEncriptar{
+    position: relative;
+    top: -161px;
+    border-radius: 5px;
+    background-color: #4c89af; /* Green */
+    border: none;
+     color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+     font-size: 14px;
+    margin: 2px 1px;
+    cursor: pointer
+  
+}
+
+
+.botonDesenciptar{
+    position: relative;
+    top: -161px;
+    right: -72px;
+    border-radius: 5px;
+    background-color: #4c89af; /* Green */
+    border: none;
+     color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+     font-size: 14px;
+    margin: 2px 1px;
+    cursor: pointer
+}
+
+div, p{
+    position: relative;
+    top: 235px;
+    color: white;
+    opacity: 76%;
+    font-weight: bold;
+}
+
+#boton{
+    right: -825px;
+    top: -115px;
+    position: relative;
+    border-radius: 5px;
+    background-color: #4c89af; /* Green */
+    border: none;
+    color: white;   ;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 1px;
+    cursor: pointer
+}
+
+footer{
+    text-align: center;
+    font-size: 15px;
+    color: azure;
+    position: relative;
+    bottom: -50px;
+
+}
